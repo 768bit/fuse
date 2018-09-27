@@ -1,6 +1,9 @@
 package fuse
 
-import "time"
+import (
+	"syscall"
+	"time"
+)
 
 // OpenAccessModeMask is a bitmask that separates the access mode
 // from the other flags in OpenFlags.

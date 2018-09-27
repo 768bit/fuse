@@ -104,12 +104,10 @@ package fuse // import "gitlab.768bit.com/vann/fuse"
 
 import (
 	"bytes"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"io"
 	"os"
-	"sync"
 	"syscall"
 	"time"
 	"unsafe"
@@ -632,24 +630,6 @@ unrecognized:
 	// Assume higher-level code will send a "no idea what you mean" error.
 	h := m.Header()
 	return &h, nil
-}
-
-func (c *Conn) writeToKernel(msg []byte) error {
-	out := (*outHeader)(unsafe.Pointer(&msg[0]))
-	out.Len = uint32(len(msg))
-
-	c.wio.RLock()
-	defer c.wio.RUnlock()
-	nn, err := syscall.Write(c.fd(), msg)
-	if err == nil && nn != len(msg) {
-		Debug(bugShortKernelWrite{
-			Written: int64(nn),
-			Length:  int64(len(msg)),
-			Error:   errorString(err),
-			Stack:   stack(),
-		})
-	}
-	return err
 }
 
 // MountpointDoesNotExistError is an error returned when the

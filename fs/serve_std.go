@@ -2,6 +2,11 @@
 
 package fs
 
+import (
+	"fmt"
+	"io"
+)
+
 // Serve serves the FUSE connection by making calls to the methods
 // of fs and the Nodes and Handles it makes available.  It returns only
 // when the connection has been closed or an unexpected error occurs.
