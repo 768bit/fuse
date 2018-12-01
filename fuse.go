@@ -100,7 +100,7 @@
 // Behavior and metadata of the mounted file system can be changed by
 // passing MountOption values to Mount.
 //
-package fuse // import "gitlab.768bit.com/vann/fuse"
+package fuse // import "github.com/768bit/fuse"
 
 import (
 	"bytes"
