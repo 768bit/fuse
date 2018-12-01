@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"testing"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs/fstestutil"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs/fstestutil"
 )
 
 func TestMountOptionCommaError(t *testing.T) {

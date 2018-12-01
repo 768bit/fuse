@@ -1,7 +1,7 @@
 package fuseutil // import "github.com/768bit/fuse/fuseutil"
 
 import (
-	"gitlab.768bit.com/vann/fuse"
+	"github.com/768bit/fuse"
 )
 
 // HandleRead handles a read request assuming that data is the entire file content.

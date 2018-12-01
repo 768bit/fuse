@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs"
-	_ "gitlab.768bit.com/vann/fuse/fs/fstestutil"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs"
+	_ "github.com/768bit/fuse/fs/fstestutil"
 	"golang.org/x/net/context"
 )
 

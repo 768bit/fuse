@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"gitlab.768bit.com/vann/fuse"
+	"github.com/768bit/fuse"
 )
 
 type flagDebug bool

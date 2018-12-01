@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"gitlab.768bit.com/vann/fuse"
+	"github.com/768bit/fuse"
 )
 
 func TestOpenFlagsAccmodeMaskReadWrite(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 )
 
 import (
-	"gitlab.768bit.com/vann/fuse"
+	"github.com/768bit/fuse"
 )
 
 // A Tree implements a basic read-only directory tree for FUSE.

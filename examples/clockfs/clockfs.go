@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs"
-	_ "gitlab.768bit.com/vann/fuse/fs/fstestutil"
-	"gitlab.768bit.com/vann/fuse/fuseutil"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs"
+	_ "github.com/768bit/fuse/fs/fstestutil"
+	"github.com/768bit/fuse/fuseutil"
 	"golang.org/x/net/context"
 )
 

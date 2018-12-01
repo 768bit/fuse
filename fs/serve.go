@@ -16,8 +16,8 @@ import (
 	"bytes"
 	"context"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fuseutil"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fuseutil"
 )
 
 const (

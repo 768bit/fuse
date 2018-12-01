@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs"
 	"golang.org/x/net/context"
 )
 

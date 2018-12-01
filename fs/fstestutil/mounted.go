@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs"
 )
 
 // Mount contains information about the mount for the test to use.

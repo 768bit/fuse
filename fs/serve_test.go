@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.768bit.com/vann/fuse"
-	"gitlab.768bit.com/vann/fuse/fs"
-	"gitlab.768bit.com/vann/fuse/fs/fstestutil"
-	"gitlab.768bit.com/vann/fuse/fs/fstestutil/record"
-	"gitlab.768bit.com/vann/fuse/fuseutil"
-	"gitlab.768bit.com/vann/fuse/syscallx"
+	"github.com/768bit/fuse"
+	"github.com/768bit/fuse/fs"
+	"github.com/768bit/fuse/fs/fstestutil"
+	"github.com/768bit/fuse/fs/fstestutil/record"
+	"github.com/768bit/fuse/fuseutil"
+	"github.com/768bit/fuse/syscallx"
 	"golang.org/x/net/context"
 )
 

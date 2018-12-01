@@ -3,7 +3,7 @@ package fs_test
 import (
 	"testing"
 
-	"gitlab.768bit.com/vann/fuse/fs/fstestutil"
+	"github.com/768bit/fuse/fs/fstestutil"
 	"golang.org/x/sys/unix"
 )
 
