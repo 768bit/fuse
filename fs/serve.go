@@ -1,6 +1,6 @@
 // FUSE service loop, for servers that wish to use it.
 
-package fs // import "gitlab.768bit.com/vann/fuse/fs"
+package fs // import "github.com/768bit/fuse/fs"
 
 import (
 	"encoding/binary"

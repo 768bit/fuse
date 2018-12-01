@@ -1,4 +1,4 @@
-package fuseutil // import "gitlab.768bit.com/vann/fuse/fuseutil"
+package fuseutil // import "github.com/768bit/fuse/fuseutil"
 
 import (
 	"gitlab.768bit.com/vann/fuse"

@@ -1,1 +1,1 @@
-package fstestutil // import "gitlab.768bit.com/vann/fuse/fs/fstestutil"
+package fstestutil // import "github.com/768bit/fuse/fs/fstestutil"

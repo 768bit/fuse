@@ -1,4 +1,4 @@
-package record // import "gitlab.768bit.com/vann/fuse/fs/fstestutil/record"
+package record // import "github.com/768bit/fuse/fs/fstestutil/record"
 
 import (
 	"sync"
